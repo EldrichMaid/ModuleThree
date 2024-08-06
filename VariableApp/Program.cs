@@ -12,6 +12,7 @@
             Console.WriteLine("Hello,\nworld");
             Console.WriteLine("\t  You now know 'bout literals");
             Console.WriteLine("\t  Congrats to you,darlin'");
+            Console.WriteLine("\x23");
             Console.ReadKey();
         }
     }
