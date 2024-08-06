@@ -41,6 +41,11 @@
             Console.WriteLine();
             Console.WriteLine($"The name's {YetAnotherName}");
             Console.WriteLine($"And for {YetAnotherAge} years I've been on my journey to the abyss");
+
+            string NameAgain = "Ivan";
+            byte AgeAgain = 28;
+            string FavColor = "Indigo";
+            Console.WriteLine("Name {0} \n Age {1} \n Favorite color {2}", NameAgain, AgeAgain, FavColor);
             Console.ReadKey();
         }
         enum DaysOfWeek : byte
