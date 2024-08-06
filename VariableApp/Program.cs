@@ -48,7 +48,7 @@
             Console.WriteLine("Name {0} \n Age {1} \n Favorite color {2}", NameAgain, AgeAgain, FavColor);
 
             string str = Console.ReadLine();
-            Console.Write("Цыган на цыпочках цыпленку цыкнул цыц", str);
+            Console.WriteLine("Цыган на цыпочках цыпленку цыкнул цыц", str);
 
             double DivTop = 5;
             double DivBottom = 2;
