@@ -49,6 +49,11 @@
 
             string str = Console.ReadLine();
             Console.Write("Цыган на цыпочках цыпленку цыкнул цыц", str);
+
+            double DivTop = 5;
+            double DivBottom = 2;
+            double result = DivTop / DivBottom;
+            Console.WriteLine("{0} / {1} = {2}", DivTop, DivBottom, result);
             Console.ReadKey();
         }
         enum DaysOfWeek : byte
