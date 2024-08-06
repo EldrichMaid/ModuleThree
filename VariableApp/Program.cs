@@ -8,7 +8,7 @@
             MyName = "NewName";
             Console.WriteLine(MyName);
             const string ConstantName = "Permanence";
-            Console.WriteLine(ConstantName); 
+            Console.WriteLine(ConstantName);
             Console.WriteLine("Hello,\nworld");
             Console.WriteLine("\t  You now know 'bout literals");
             Console.WriteLine("\t  Congrats to you,darlin'");
@@ -34,5 +34,17 @@
             Console.WriteLine("FloatMax {0} ", float.MaxValue);
             Console.ReadKey();
         }
+        enum DaysOfWeek : byte
+        {
+            Monday = 1,
+            Tuesday = 2,
+            Wednesday = 3,
+            Thursday = 4,
+            Friday = 5,
+            Saturday = 6,
+            Sunday = 7
+        }
+        
+        }
     }
-}
+
