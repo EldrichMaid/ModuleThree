@@ -32,6 +32,8 @@
 
             Console.WriteLine("FloatMin {0} ", float.MinValue);
             Console.WriteLine("FloatMax {0} ", float.MaxValue);
+
+            Console.WriteLine("\t   Hello again,\nworld");
             Console.ReadKey();
         }
         enum DaysOfWeek : byte
