@@ -36,9 +36,11 @@
             Console.WriteLine("\t   Hello again,\nworld");
 
             string YetAnotherName = "Ivan";
+            byte YetAnotherAge = 28;
             Console.WriteLine("Sup, world");
             Console.WriteLine();
             Console.WriteLine($"The name's {YetAnotherName}");
+            Console.WriteLine($"And for {YetAnotherAge} years I've been on my journey to the abyss");
             Console.ReadKey();
         }
         enum DaysOfWeek : byte
