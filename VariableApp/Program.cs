@@ -44,7 +44,13 @@
             Saturday = 6,
             Sunday = 7
         }
-        
+        enum Semaphore : int
+        {
+            Red = 100,
+            Yellow = 200,
+            Green = 300
         }
+
+    }
     }
 
