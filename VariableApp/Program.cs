@@ -64,10 +64,12 @@
             DayOfWeek day = (DayOfWeek)int.Parse(Console.ReadLine());
             Console.WriteLine("Thus your favorite day is {0}", day);
 
+            Console.Write("Enter your name again: ");
             var readname = checked(Console.ReadLine());
+            Console.Write("Enter your age again: ");
             var readage = checked((byte)int.Parse(Console.ReadLine()));
             Console.WriteLine("Your name is {0} and age is {1} ", readname, readage);
-            Console.Write("What is your favorite day of week? ");
+            Console.Write("What is your favorite day of week again? ");
             var readday = (DayOfWeek)int.Parse(Console.ReadLine());
             Console.WriteLine("Your favorite day is {0}", readday);
             Console.ReadKey();
