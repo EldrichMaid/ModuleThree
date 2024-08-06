@@ -34,6 +34,11 @@
             Console.WriteLine("FloatMax {0} ", float.MaxValue);
 
             Console.WriteLine("\t   Hello again,\nworld");
+
+            string YetAnotherName = "Ivan";
+            Console.WriteLine("Sup, world");
+            Console.WriteLine();
+            Console.WriteLine($"The name's {YetAnotherName}");
             Console.ReadKey();
         }
         enum DaysOfWeek : byte
