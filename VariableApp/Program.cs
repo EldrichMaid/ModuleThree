@@ -23,6 +23,15 @@
             Console.WriteLine("MyAge " + Age);
             Console.WriteLine("Do I have a pet? " + PetData);
             Console.WriteLine("My shoe size is " + ShoeSizeData);
+
+            Console.WriteLine("IntMin {0} ", int.MinValue);
+            Console.WriteLine("IntMax {0} ", int.MaxValue);
+
+            Console.WriteLine("ByteMin {0} ", byte.MinValue);
+            Console.WriteLine("ByteMax {0} ", byte.MaxValue);
+
+            Console.WriteLine("FloatMin {0} ", float.MinValue);
+            Console.WriteLine("FloatMax {0} ", float.MaxValue);
             Console.ReadKey();
         }
     }
