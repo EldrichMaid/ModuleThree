@@ -63,6 +63,13 @@
             Console.WriteLine("And your favorite weekday is?");
             DayOfWeek day = (DayOfWeek)int.Parse(Console.ReadLine());
             Console.WriteLine("Thus your favorite day is {0}", day);
+
+            var readname = checked(Console.ReadLine());
+            var readage = checked((byte)int.Parse(Console.ReadLine()));
+            Console.WriteLine("Your name is {0} and age is {1} ", readname, readage);
+            Console.Write("What is your favorite day of week? ");
+            var readday = (DayOfWeek)int.Parse(Console.ReadLine());
+            Console.WriteLine("Your favorite day is {0}", readday);
             Console.ReadKey();
         }
         enum DaysOfWeek : byte
